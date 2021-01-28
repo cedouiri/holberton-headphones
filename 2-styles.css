@@ -19,7 +19,7 @@ body {
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
-    display:block;
+	display:block;
 }
 
 nav ul {
@@ -252,24 +252,24 @@ p {
     margin-bottom: 65px;
 }
 
-.what-cards {
+.cards {
     margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.what-cards div span {
+.cards div span {
     font-family: 'holberton_school-icon';
     font-size: 150px;
     color: var(--color-secondary);
 }
 
-.what-cards div h2 {
+.cards div h2 {
     font-weight: 800;
 }
 
-.what-cards div p {
+.cards div p {
     margin-top: .5rem;
     width: 100%;
 }
@@ -281,11 +281,7 @@ p {
     color: var(--color-primary);
     padding: 8rem 0 6rem 0;
     background-image: url("images/headphones_hero_2.jpg");
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .result-title {
@@ -295,23 +291,14 @@ p {
 .result-cards {
     background-image: url("images/pentagone.png");
     background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 190px;
-    height: 190px;
-  /*  position: absolute; */
+    height: 180px;
 }
 
 .result-cards  h1 {
+    margin-top: 3.3rem;
     font-size: 3rem;
-    font-weight: bold;
-    padding-top: 3rem;
-    padding-bottom: 0;
 }
-
-/*  .result-cards p {
-        margin: 0;
-} */
 
 /* RESPONSIVENESS */
 
